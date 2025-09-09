@@ -31,7 +31,7 @@ services:
       MYSQL_PASSWORD: supersegreta
       MYSQL_ROOT_PASSWORD: rootpass
     ports:
-      "3307:3307"
+      - "3307:3307"
     volumes:
       - db_data:/var/lib/mysql
 
